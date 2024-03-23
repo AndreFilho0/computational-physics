@@ -6,7 +6,32 @@ Grupo :
 -André
 -Bruno
 -Thallys
+<ul>
+<h3>Comandos muitos usados no linux</h3>
+<li>ls: Lista os arquivos e diretórios no diretório atual.</li>
+<li>cd &lt;directory&gt;: Navega para o diretório especificado.</li>
+<li>pwd: Exibe o diretório atual.</li>
+<li>mkdir &lt;directory&gt;: Cria um novo diretório.</li>
+<li>rm &lt;file&gt;: Remove um arquivo.</li>
+<li>rm -r &lt;directory&gt;: Remove um diretório e seu conteúdo de forma recursiva.</li>
+<li>cp &lt;source&gt; &lt;destination&gt;: Copia arquivos e diretórios.</li>
+<li>mv &lt;source&gt; &lt;destination&gt;: Move ou renomeia arquivos e diretórios.</li>
+<li>touch &lt;file&gt;: Cria um novo arquivo vazio.</li>
+<li>cat &lt;file&gt;: Exibe o conteúdo de um arquivo.</li>
+<li>grep &lt;pattern&gt; &lt;file&gt;: Pesquisa por padrões em arquivos.</li>
+<li>sudo &lt;command&gt;: Executa um comando com privilégios de superusuário.</li>
+<li>apt-get update: Atualiza a lista de pacotes disponíveis.</li>
+<li>apt-get install &lt;package&gt;: Instala um novo pacote.</li>
+<li>apt-get remove &lt;package&gt;: Remove um pacote.</li>
+<li>apt-cache search &lt;term&gt;: Procura por um pacote específico.</li>
+<li>dpkg -i &lt;package.deb&gt;: Instala um pacote .deb.</li>
+<li>ps: Lista os processos em execução.</li>
+<li>kill &lt;PID&gt;: Encerra um processo com o ID especificado.</li>
+<li>man &lt;command&gt;: Exibe o manual do comando especificado.</li>
 
+
+  
+</ul>
 
 <ul>
   <h3>comandos muito usados no git</h3>
