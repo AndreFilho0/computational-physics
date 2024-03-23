@@ -6,3 +6,29 @@ Grupo :
 -André
 -Bruno
 -Thallys
+
+
+<ul>
+  <h3>comandos muito usados no git</h3>
+<li>git init: Inicializa um novo repositório Git localmente.</li>
+<li>git clone &lt;URL&gt;: Clona um repositório Git existente para um novo diretório local.</li>
+<li>git add &lt;file&gt;: Adiciona alterações feitas em um arquivo específico ao índice (staging area) para prepará-los para o commit.</li>
+<li>git commit -m "mensagem": Registra as alterações feitas no repositório com uma mensagem de commit associada.</li>
+<li>git status: Exibe o estado atual do repositório, mostrando quais arquivos foram modificados, adicionados ou removidos.</li>
+<li>git push: Envia commits locais para um repositório remoto.</li>
+<li>git pull: Obtém e integra as alterações mais recentes de um repositório remoto para o ramo atual do repositório local.</li>
+<li>git checkout &lt;branch&gt;: Altera para um ramo específico.</li>
+<li>git branch: Lista todos os ramos presentes no repositório.</li>
+<li>git merge &lt;branch&gt;: Integra as alterações de um ramo para outro.</li>
+<li>git remote -v: Lista os repositórios remotos configurados para o projeto.</li>
+<li>git log: Mostra o histórico de commits.</li>
+<li>git diff: Mostra as diferenças entre commits, arquivos ou branches.</li>
+<li>git stash: Salva temporariamente as alterações locais para que você possa alternar entre ramos sem fazer commit.</li>
+<li>git reset &lt;file&gt;: Remove um arquivo do índice (staging area), mas mantém suas alterações no diretório de trabalho.</li>
+<li>git rm &lt;file&gt;: Remove um arquivo do repositório e do diretório de trabalho.</li>
+<li>git remote add &lt;name&gt; &lt;URL&gt;: Adiciona um novo repositório remoto.</li>
+<li>git config: Configura opções específicas do Git, como nome de usuário, email, etc.</li>
+<li>git tag: Lista, cria ou exclui tags.</li>
+<li>git fetch: Obtém todas as referências de um repositório remoto, mas não mescla as alterações em nenhum dos ramos locais.</li>
+  
+</ul>
