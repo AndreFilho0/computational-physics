@@ -7,7 +7,7 @@ Grupo :
 -Bruno
 -Thallys
 <ul>
-<h3>Comandos muitos usados no linux</h3>
+<h3>Comandos muito usados no linux</h3>
 <li>ls: Lista os arquivos e diretórios no diretório atual.</li>
 <li>cd &lt;directory&gt;: Navega para o diretório especificado.</li>
 <li>pwd: Exibe o diretório atual.</li>
@@ -35,6 +35,9 @@ Grupo :
 
 <ul>
   <h3>comandos muito usados no git</h3>
+  Para logar :
+<li>git config --global user.name ''</li>
+<li>git config --global user.email ''</li>
 <li>git init: Inicializa um novo repositório Git localmente.</li>
 <li>git clone &lt;URL&gt;: Clona um repositório Git existente para um novo diretório local.</li>
 <li>git add &lt;file&gt;: Adiciona alterações feitas em um arquivo específico ao índice (staging area) para prepará-los para o commit.</li>
