@@ -1,1 +1,0 @@
-sou o teste feito la no python
