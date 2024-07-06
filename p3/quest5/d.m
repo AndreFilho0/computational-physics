@@ -28,10 +28,10 @@ temperaturas_cubic = interp2(x, y, temperaturas, points_x, points_y, 'cubic');
 % Mostrando os resultados
 disp('Temperaturas interpoladas linearmente:');
 for i = 1:length(points_x)
-    fprintf('Ponto (%.1f cm, %.1f cm): %.2f Celsius\n', points_x(i), points_y(i), temperaturas_linear(i));
+    fprintf('Ponto (%.1f cm, %.1f cm): %.2f °C\n', points_x(i), points_y(i), temperaturas_linear(i));
 end
 
 disp('Temperaturas interpoladas cubicamente:');
 for i = 1:length(points_x)
-    fprintf('Ponto (%.1f cm, %.1f cm): %.2f Celsius\n', points_x(i), points_y(i), temperaturas_cubic(i));
+    fprintf('Ponto (%.1f cm, %.1f cm): %.2f °C\n', points_x(i), points_y(i), temperaturas_cubic(i));
 end

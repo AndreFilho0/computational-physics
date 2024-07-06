@@ -29,5 +29,5 @@ x_min = x_values(col_min);
 y_min = y_values(row_min);
 
 % Mostrando os resultados
-fprintf('Região mais quente: (%.1f cm, %.1f cm) com temperatura de %.2f Celsius\n', x_max, y_max, max_temp);
-fprintf('Região mais fria: (%.1f cm, %.1f cm) com temperatura de %.2f Celsius\n', x_min, y_min, min_temp);
+fprintf('Região mais quente: (%.1f cm, %.1f cm) com temperatura de %.2f °C\n', x_max, y_max, max_temp);
+fprintf('Região mais fria: (%.1f cm, %.1f cm) com temperatura de %.2f °C\n', x_min, y_min, min_temp);

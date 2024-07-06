@@ -22,9 +22,9 @@ mesh(x, y, temperaturas);
 % Definindo os rótulos dos eixos
 xlabel('Comprimento (cm)');
 ylabel('Largura (cm)');
-zlabel('Temperatura (Celsius)');
+zlabel('Temperatura (°C)');
 title('Campo de Temperaturas em uma Placa de Aço');
 
 % Ajustando a visualização
-colormap('viridis');
+colormap('hot');
 colorbar;

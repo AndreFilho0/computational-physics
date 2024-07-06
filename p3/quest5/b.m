@@ -28,10 +28,10 @@ surf(xq, yq, temperaturas_interp);
 % Definindo os rótulos dos eixos
 xlabel('Comprimento (cm)');
 ylabel('Largura (cm)');
-zlabel('Temperatura (Celsius)');
+zlabel('Temperatura (°C)');
 title('Campo de Temperaturas em uma Placa de Aço com Interpolação Linear');
 
 % Ajustando a visualização
-colormap('viridis');
+colormap('hot');
 colorbar;
 shading interp; % Suaviza o sombreamento
